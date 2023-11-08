@@ -1,6 +1,10 @@
 ## This repository aims to demonstrate how to work with Kafka's consumer retries using kafkajs
 
 ### How to:
+##### 0. Install dependencies
+```sh
+npm i
+```
 ##### 1. Run kafka broker:
 ```sh
 make start
