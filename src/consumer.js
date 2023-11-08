@@ -31,7 +31,6 @@ const consume = async () => {
     await consumer.subscribe({topic, fromBeginning: true, });
     await consumer.run({
         eachMessage: ({topic, partition, message}) => {
-            console.log(JSON.stringify(message));
             kafka.logger().info('Message consumed', {
                 topic,
                 partition,
