@@ -1,0 +1,15 @@
+{
+  "name": "kafkajs_retry_example",
+  "version": "1.0.0",
+  "description": "This project aims to demonstrate how to work with Kafka's consumer retries using kafkajs",
+  "scripts": {
+    "consume": "node ./src/consumer.js",
+    "produce": "node ./src/producer.js"
+  },
+  "keywords": ["kafka", "kafkajs", "retry", "consumer"],
+  "author": "italoservio me@italoservio.com",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "~2.2.4"
+  }
+}
